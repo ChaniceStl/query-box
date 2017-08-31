@@ -1,0 +1,37 @@
+{
+  "name": "query-box",
+  "version": "1.0.0",
+  "description": "Create a web app (desktop or mobile) that provides a query box and a search button and then calls the Places Library for Google Maps (https://developers.google.com/maps/documentation/javascript/places). Format the results to give a good user experience.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch && nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaniceStl/query-box.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChaniceStl/query-box/issues"
+  },
+  "homepage": "https://github.com/ChaniceStl/query-box#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel": "^6.23.0",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.14.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.4.2",
+    "webpack": "^3.5.5",
+    "webpack-livereload-plugin": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-preset-stage-1": "^6.24.1"
+  }
+}
